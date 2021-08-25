@@ -1,0 +1,113 @@
+/* importing google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  padding: 0px 30px;
+}
+
+/* left section */
+.navbar-left {
+  padding: 20px 0;
+  flex: 0 0 30%;
+}
+
+.navbar-logo {
+  display: block;
+  height: 40px;
+}
+
+.navbar-logo img {
+  height: 100%;
+}
+
+/* right section */
+.navbar-right {
+  flex: 0 0 70%;
+  display: flex;
+  align-items: center;
+}
+
+/*  navbar menu */
+.navbar-menu {
+  flex: 0 0 75%;
+  display: flex;
+}
+
+.navbar-menu-box {
+  flex: 0 0 25%;
+  padding: 20px 0;
+}
+
+.navbar-menu-box:hover .navbar-menu-desc {
+  display: block;
+}
+
+.navbar-menu-title {
+  display: flex;
+  cursor: pointer;
+}
+
+.navbar-menu-title h4 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.navbar-menu-title i {
+  margin-left: 10px;
+  align-self: center;
+}
+
+.navbar-menu-desc {
+  display: none;
+  position: absolute;
+  top: 70px;
+  padding: 20px;
+  width: 300px;
+  background-color: #e5eff5;
+}
+
+.navbar-menu-desc ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  padding: 6px 0;
+}
+
+/* navbar btn */
+.navbar-btn {
+  flex: 0 0 25%;
+}
+
+.navbar-btn form {
+  display: flex;
+}
+
+.navbar-btn button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.get-started-btn button {
+  background-color: #017a9b;
+  color: #fff;
+  margin-left: 15px;
+}
